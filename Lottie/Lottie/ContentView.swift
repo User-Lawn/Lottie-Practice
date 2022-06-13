@@ -8,9 +8,13 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var isContentReady : Bool = false
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+   
+        LottieView(jsonName: "NearCatStanding")
+                        
     }
 }
 
