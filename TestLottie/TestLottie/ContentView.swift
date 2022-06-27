@@ -1,20 +1,17 @@
 //
 //  ContentView.swift
-//  Lottie
+//  TestLottie
 //
-//  Created by Jun.Mac on 2022/06/10.
+//  Created by Jun.Mac on 2022/06/27.
 //
 
 import SwiftUI
 
 struct ContentView: View {
-    
-    @State var isContentReady : Bool = false
-    
     var body: some View {
-   
-        LottieView(jsonName: "NearCatStanding")
-                        
+        
+     LottieView(jsonName: "Test")
+        
     }
 }
 

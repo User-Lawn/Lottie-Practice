@@ -1,14 +1,14 @@
 //
-//  LottieApp.swift
-//  Lottie
+//  TestLottieApp.swift
+//  TestLottie
 //
-//  Created by Jun.Mac on 2022/06/10.
+//  Created by Jun.Mac on 2022/06/27.
 //
 
 import SwiftUI
 
 @main
-struct LottieApp: App {
+struct TestLottieApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
